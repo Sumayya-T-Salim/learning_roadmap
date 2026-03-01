@@ -1,0 +1,46 @@
+body{
+        font-family: Arial, sans-serif;
+        }
+    .head{
+        width: 70%;
+        margin: 40px;
+        padding: 20px 40px;
+        border-left: 6 px solid white;
+    }
+    .head > h1{
+        font-size: 40px;
+        border-bottom: 4px solid blue;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    ul{
+        
+        padding-left: 0;
+    }
+    li > h3{
+        color: blue;
+        margin-bottom: 10px;
+    }
+    li ul{
+        border-left: 3px solid lightgrey;
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+    #rect{
+        background-color: cadetblue;
+        margin-right: 600px;
+    }
+    li ul li{
+        list-style: none;
+        padding: 12px;
+        margin: 8px;
+        font-weight: bold;
+    }
+    .red h3{
+        color: red;
+    }
+    .head > p{
+        color: grey;
+        font-style: italic;
+        margin-left: -40px;
+    }
